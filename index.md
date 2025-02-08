@@ -5,7 +5,7 @@ I studied the Humanities, including Philosophy, English literature, and History,
 
 I worked my way through university in various technical support roles, during which time I began building mobile apps, leading to my first professional role.
 
-In the intervening years, I've published iOS apps for Charlotte, NC based companies TimeTap and Duke Energy. And contributed to the Mobility-as-a-Service iOS and microservices platform for Mobimeo GmbH, daughter company of Deutsche Bahn.
+In the intervening years, I've published iOS apps for Charlotte, NC based companies TimeTap and Duke Energy. And contributed to the Mobility-as-a-Service iOS and microservices platform for Mobimeo GmbH, a daughter company of Deutsche Bahn.
 
 ## Tutorials
 Coming soon
@@ -41,6 +41,8 @@ How-to guides:
 - [Design Booking Website](https://timetap.atlassian.net/wiki/pages/viewpage.action?pageId=491616&pageVersion=32)
 - [Add Custom Booking Fields](https://timetap.atlassian.net/wiki/pages/viewpage.action?pageId=52953143&pageVersion=5)
 
+Note: In many cases, the link points to the latest version to which I contributed.
+
 ### Social links
-- [LinkedIn](www.linkedin.com/in/mpbryant)
+- [LinkedIn](http://linkedin.com/in/mpbryant)
 - [Github](https://github.com/bryantm1123)
