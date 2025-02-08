@@ -41,7 +41,7 @@ How-to guides:
 - [Design Booking Website](https://timetap.atlassian.net/wiki/pages/viewpage.action?pageId=491616&pageVersion=32)
 - [Add Custom Booking Fields](https://timetap.atlassian.net/wiki/pages/viewpage.action?pageId=52953143&pageVersion=5)
 
-Note: In many cases, the link points to the latest version to which I contributed.
+Note: The links point to the latest document version to which I contributed.
 
 ### Social links
 - [LinkedIn](http://linkedin.com/in/mpbryant)
