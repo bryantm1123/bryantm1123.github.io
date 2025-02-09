@@ -1,7 +1,11 @@
 # About me
-I am a software engineer and technical writer with over eight years of experience, working in small, mid-size, and large companies. As an engineer, I've worked on iOS and Android native apps, and on backend microservices in Java and Kotlin. I'm also familiar with Postgres databases and infrastructure as code using Terraform and AWS.
+I am a software engineer and technical writer with over eight years of experience, working in startups, scale-ups, and large enterprise companies. 
 
-I studied the Humanities, including Philosophy, English literature, and History, ultimately graduating from the University of North Carolina at Greensboro with a 3.98/4.0 grade point average and Summa Cum Laude with highest honor.
+As an engineer, my expertise ranges from iOS and Android native apps, to backend microservices in Java and Kotlin. I'm also familiar with Postgres databases and infrastructure as code using Terraform and AWS.
+
+As a technical writer, I'm experienced in Markdown, Wiki, and Confluence style documentation, as well as diagram tools like Miro and Figma. My preferred workflow is the "Docs as Code" style leveraging Git version control, Markdown, and publishing via Github CI.
+
+My educational background is in the Humanities, where I studied Philosophy, English literature, and History, ultimately graduating from the University of North Carolina at Greensboro with a 3.98/4.0 grade point average and Summa Cum Laude with highest honor.
 
 I worked my way through university in various technical support roles, during which time I began building mobile apps, leading to my first professional role.
 
@@ -22,9 +26,13 @@ Gifty is a demo app for iOS that I built in 2021. It loads a scrolling list of `
 
 ## Writing Projects
 
+### Book Club
+Reviews and accompanying learning exercises.
+- [Good with Words by Patrick Barry](bookclub/goodwithwords/goodwithwords.md#good-with-words-by-patrick-barry)
+
 ### Mobimeo
-I edited this Medium article written by my collegue:\
-[iOS Unit Tests and Asynchronous Calls](https://medium.com/mobimeo-technology/ios-unit-tests-and-asynchronous-calls-a8787b44d817)
+Work edited for Mobimeo Technology.
+- [iOS Unit Tests and Asynchronous Calls](https://medium.com/mobimeo-technology/ios-unit-tests-and-asynchronous-calls-a8787b44d817)
 
 ### TimeTap Documentation
 A collection of documentation I authored and edited in my first professional role.
