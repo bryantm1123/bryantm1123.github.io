@@ -1,5 +1,5 @@
 ---
-title: Combine VSCode, Markdown, and Git on MacOS to Create a Docs as Code Workflow
+title: Combine VSCode, Markdown, and Git on MacOS to Create a Docs-as-Code Workflow
 permalink: /vscode-workflow/
 ---
 
@@ -28,7 +28,7 @@ You should now see your project directory open in the Explorer side bar.
 
 ![explorer sidebar](vscode-explorer-sidebar-2.png)
 
-Next, access the built-in Terminal window by clicking the *Toggle Panel* button or typing the shortcut `#J`.
+Next, access the built-in Terminal window by clicking the *Toggle Panel* button or typing the shortcut `⌘J`.
 
 ![toggle panel](vscode-toggle-panel.png)
 
@@ -62,15 +62,15 @@ We also see a helpful message from Git instructing us to use `git add <file>...`
 
 ![git status](vscode-git-status.png)
 
-Let's add this file now so that we can commit it by using the command that Git suggested to us: `git add about.md`. If you have several files that you want to add at once, type `git add .` to add them all.
+Let's add this file to allow Git to track it by using the command that Git suggested to us: `git add about.md`. If you have several files that you want to add at once, type `git add .` to add them all.
 
 If we type `git status` again into Terminal, we should now see an updated output. Instead of `Untracked files:` we should now see `Changes to be committed:` and `about.md` listed in green.
 
 ![git status commit](vscode-git-status-commit.png)
 
-Now we'll commit our new file by typing `git commit -m "adding about file"`. The `-m` flag allows us to add a commit message which contain a brief statement about the changes we made. This can help us or our colleagues to look through the history of commits and understand what changes occured in each commit. 
+Now we'll commit our new file by typing `git commit -m "adding about file"`. The `-m` flag allows us to add a commit message which should contain a brief statement about the changes we made. This can help us or our colleagues to look through the history of commits and understand what changes occured in each commit. 
 
-We now see some statistics from git signifiying what changed. And if we type `git status` again, we can see that we have no current changes to commit.
+We now see some statistics from Git signifiying what changed. And if we type `git status` again, we can see that we have no current changes to commit.
 
 ![status after commit](vscode-git-status-after-commit.png)
 
@@ -80,7 +80,7 @@ To see the history of our changes so far, we can type `git log` into the Termina
 
 ## Push Commit to Remote Repository
 If you followed the tutorial to create a static site with Github Pages, the directory on your local Mac should already have a connection to your remote repository on Github. If not, follow the steps in [Create a Github repository]({% link _pages/tutorials/github-pages/pages.md %}).
-Afterwards, you'll need to create the connection between your local repository on your Mac filesystem and the remote repository on Github. Luckily Git has a command to do just that.
+Afterwards, you'll need to create the connection between your local repository on your Mac filesystem and the remote repository on Github. Luckily, Git has a command to do just that.
 
 In the Terminal, type `git remote add origin <https url to Github repository>`. You can find the https url for your repository on the *Code* tab in Github. Click the *Code* button and the *HTTPS* tab. Finally click *Copy url to clipboard* and paste the url after `origin` in Terminal and run the command.
 
@@ -92,3 +92,33 @@ In the next step, we'll align our local branch name with the branch on our Githu
 
 We only need to do this once (for this branch). For any future commits, we can run simply `git push`.
 
+Afterwards you should see an output message similar to this:
+
+![git push](vscode-git-push.png)
+
+You can also verify the new commit was pushed to your remote repository by checking Github.
+
+## Preview Markdown Files in VSCode
+Now that we know the basics of how to create new files and manage them with Git using the Terminal window, let's take a look at the final piece: previewing our Markdown file content in VSCode.
+
+Open the `about.md` file we created earlier in VSCode by navigating to your project root folder in the Terminal window and typing `code about.md`.
+
+Add some content to the file, then open the Preview Window by clicking the *Open Preview to the Side* button or typing the shortcut `⌘K,V`.
+
+![preview button](vscode-preview-button.png)
+
+You should now see the rendered version of your Markdown file. 
+
+![preview window](vscode-preview-window.png)
+
+## Putting it All Together
+My favorite aspect of the VSCode, Markdown, and Git workflow is that I can do all my editing and publishing from within the same app, which cuts down on context switching and saves valuable time. I hope you find some value in this setup also. Thank you for reading!
+
+![all together](vscode-putting-it-all-together.png)
+
+## Further Reading
+We covered a lot of ground in this tutorial, and only skimmed the surface of VSCode and Git. Here are some links to continue your learning journey.
+
+- For more tips on editing Markdown in VSCode, see [Markdown and Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
+- To learn all things Git, see [https://git-scm.com/](https://git-scm.com/)
+- More about [Github Pages]({% link _pages/tutorials/github-pages/pages.md %})
