@@ -1,0 +1,11 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "Tutorials"
+    url: /tutorials/
+  - title: "Coding Projects"
+    url: /coding-projects/
+  - title: "Professional Writing Samples"
+    url: /writing-samples/
+  - title: "Book Club"
+    url: /book-club/
