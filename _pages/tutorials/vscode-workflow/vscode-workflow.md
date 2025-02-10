@@ -90,5 +90,5 @@ In the next step, we'll align our local branch name with the branch on our Githu
 
 `git push --set-upstream origin master`
 
-We only need to do this once (for this branch). For any future commits, we can run simply `git push`. 
+We only need to do this once (for this branch). For any future commits, we can run simply `git push`.
 
