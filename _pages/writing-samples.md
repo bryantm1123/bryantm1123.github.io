@@ -2,7 +2,7 @@
 title: Professional Writing Samples
 permalink: /writing-samples/
 ---
-Much of my prior documentation work is proprietary, and sadly not sharable here. However, there are a few highlights that are publicly available.
+Much of my prior documentation work is proprietary, and sadly not sharable. However, there are a few highlights that are publicly available.
 
 ### Mobimeo
 An article which I edited for Mobimeo Technology.
