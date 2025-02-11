@@ -51,7 +51,7 @@ author:
   name: "Matthew Bryant"
   avatar: "/assets/images/bio-photo.jpeg"
   bio: "Engineer, writer; history, philosophy, and politics nerd." # Note: Markdown is allowed
-  location: "Berlin"
+  location: "Berlin, Germany"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
