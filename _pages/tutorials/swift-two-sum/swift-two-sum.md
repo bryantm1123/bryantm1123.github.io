@@ -12,7 +12,9 @@ The TwoSum problem can be stated as follows: *Given an array of integers and a t
 
 For example, let's say we have the following array of `Integers`:
 
-`let numbers = [2, 7, 11, 15]`
+```
+let numbers = [2, 7, 11, 15]
+```
 
 And we want to know the indices of the first two numbers which add up to a target sum of `9`.
 
