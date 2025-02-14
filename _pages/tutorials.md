@@ -9,3 +9,5 @@ permalink: /tutorials/
 
 ## Swift
 [Solve the TwoSum Problem in Swift using Dictionary]({% link _pages/tutorials/swift-two-sum/swift-two-sum.md %})
+
+[Create a Stack in Swift]({% link _pages/tutorials/swift-stack/swift-stack.md %})
