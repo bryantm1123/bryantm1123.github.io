@@ -1,10 +1,10 @@
 ---
-title: Build a Generic Thread-Safe Cache in Swift
-permalink: /swift-stack/
+title: Create a Thread-Safe Generic Cache in Swift
+permalink: /swift-thread-safe-cache/
 ---
 
 ## Introduction
-In this tutorial, we'll build a generic, thread-safe cache in Swift and use it to create an asynchronous cache for downloading and storing images from remote URLs. Before we start building our cache, let's take a moment to understand some of the key components we'll be using.
+In this tutorial, we'll build a thread-safe, generic cache in Swift and use it to create an asynchronous cache for downloading and storing images from remote URLs. Before we start building our cache, let's take a moment to understand some of the key components we'll be using.
 
 ## Understanding `DispatchQueue`
 `DispatchQueue` is a class built on top of the [Grand Central Dispatch (GCD)](https://developer.apple.com/documentation/DISPATCH) system, and used for managing the concurrent and serial execution of programming tasks. This enables developers to improve the speed and efficiency of their apps by distributing work across multiple processing threads, and synchronizing the end result.
@@ -59,7 +59,7 @@ queue.async(flags: .barrier) {
 - **Cost-based eviction:** You can optionally assign the `cost` of an item when storing it in cache, and a [`totalCostLimit`](https://developer.apple.com/documentation/foundation/nscache/1407672-totalcostlimit). Eviction will start either when system memory resources are low, or when the cache reaches the `totalCostLimit`.
 - **Delegate Support:** `NSCache` provides a [delegate](https://developer.apple.com/documentation/foundation/nscachedelegate) to handle object eviction. The delegate provides a method for taking some action when an object will be evicted from the cache.
 
-## Creating a Generic Thread-Safe Cache
+## Creating a Thread-Safe Generic Cache
 Building on the previous sections, we'll incorporate `DispatchQueue` and `NSCache` to create our `Cache` class.
 
 ```
@@ -163,7 +163,7 @@ enum AsyncImageCacheError: Error {
 **Step 6:** Return the image.
 
 ## Loading an Image with Image Cache
-Now that we've built an asynchronous image cache on top of our generic, thread-safe cache, let's load an image.
+Now that we've built an asynchronous image cache on top of our thread-safe generic cache, let's load an image.
 
 ```
 // 1
