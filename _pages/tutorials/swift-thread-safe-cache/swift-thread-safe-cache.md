@@ -214,7 +214,7 @@ Task {
 **Step 4:** Try loading the image. If it loads successfully, print that it has done so, otherwise if an error is thrown, catch and print it.
 
 ## Time to Cache In
-As we've seen in this tutorial, using the building blocks of `DispatchQueue`, `NSCache`, and Swift generics, we can create a multi-purpose, thread-safe caching mechanism, that we can then use to build more specific tooling like our async image loader. By understanding and implementing these concepts, we can ensure a better user experience and more efficient app performance.
+As we've seen in this tutorial, using the building blocks of `DispatchQueue`, `NSCache`, and Swift Generics, we can create a multi-purpose, thread-safe caching mechanism, that we can then use to build more specific tooling like our async image loader. By understanding and implementing these concepts, we can ensure a better user experience and more efficient app performance.
 
 ## Further Reading
 For more on `DispatchQueue` see the [official developer documentation](https://developer.apple.com/documentation/dispatch/dispatchqueue).  
