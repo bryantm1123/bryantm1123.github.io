@@ -12,4 +12,4 @@ permalink: /tutorials/
 
 [Create a Stack in Swift]({% link _pages/tutorials/swift-stack/swift-stack.md %})
 
-[Create a Thread-Safe Generic Cache in Swift]({% link _pages/tutorials/swift-thread-safe-cache/swift-thread-safe-cache.md %})
+[Create a Thread-Safe, Generic Cache in Swift]({% link _pages/tutorials/swift-thread-safe-cache/swift-thread-safe-cache.md %})
