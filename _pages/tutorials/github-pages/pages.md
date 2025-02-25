@@ -47,11 +47,11 @@ After commiting your changes, Github will automatically publish the latest versi
 
 ![workflow runs in Actions tab](actions-workflow-runs.png)
 
-On the next screen, you'll see a dashboard showing the status of the build and deployment processes. When in progress, the indicators will be yellow. Upon completion, the indicators will be green with a checkmark.
+On the next screen, you'll see a graph showing the status of the build and deployment processes. When in progress, the indicators will be yellow. Upon completion, the indicators will be green with a checkmark.
 
 ![build and deployment processes in Actions tab](actions-deployment-status.png)
 
-Now your website is ready to view. You can either click the link under **deploy**, or navigate to the repository name you created [earlier](#create-a-github-repository), for example `{Your Github username}.github.io`—by default, this serves as the domain address for your website. You should now see your shiny new website, open to the landing page powered by the `index.md` file.
+Now your website is ready to view. You can either click the link on the  **deploy** box, or navigate in your web browser to the repository name you created [earlier](#create-a-github-repository), for example `{Your Github username}.github.io`—by default, this serves as the domain address for your website. You should now see your shiny new website, open to the landing page powered by the `index.md` file.
 
 ## Conclusion
 In this tutorial, we learned how to create a static website by using **Github Pages**. A static website is a good choice for a site that displays information, and doesn't require interactivity with a user, for example, a blog or portfolio. To learn more about the concepts covered in this tutorial, please see the further reading section below.
