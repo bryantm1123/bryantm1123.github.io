@@ -50,7 +50,7 @@ defaults:
 author:
   name: "Matthew Bryant"
   avatar: "/assets/images/bio-photo.jpeg"
-  bio: "Engineer, writer; history, philosophy, and politics nerd." # Note: Markdown is allowed
+  bio: "I like to read, write, and learn how things work." # Note: Markdown is allowed
   location: "Berlin, Germany"
   links:
     - label: "GitHub"

@@ -2,7 +2,7 @@
 title: Combine VSCode, Markdown, and Git on MacOS to Create a Docs-as-Code Workflow
 permalink: /vscode-workflow/
 ---
-
+## Introduction
 VSCode is a feature-rich, beginner-friendly code editor, which supports Markdown syntax highlighting and a preview window, for previewing how your content will render. Git acts as a record-keeper, allowing you to track and publish your changes, or to roll them back if needed. 
 
 Using Git from VSCode's built-in Terminal Command Line Interface (CLI) window gives you the convenience of editing and publishing your content all in one place.
