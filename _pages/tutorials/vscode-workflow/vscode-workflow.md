@@ -54,9 +54,9 @@ To make our first commit, let's go back to the Terminal window and add a file to
 
 Type `git status`. This will show you the current status of the changes Git is tracking in your directory. 
 
-In the output of the command, you'll see first the `branch` name, in this case the default branch called `master`.  
+In the output of the command, you'll see first the `branch` name, in this case the default branch called `master`. **Note** — It's best practice to use inclusive language, therefore I recommend renaming the `master` branch to `main`. To do so, run this simple command in the Terminal prompt: `git branch -m master main`.
 
-Next, you'll see `Untracked files` with a list of files that we've newly added (or *staged* in the language of Git). 
+After the default branch, you'll next see `Untracked files` with a list of files that we've newly added (or *staged* in the language of Git). 
 
 We also see a helpful message from Git instructing us to use `git add <file>...` to include the files we want to commit.
 
@@ -88,7 +88,7 @@ In the Terminal, type `git remote add origin <https url to Github repository>`. 
 
 In the next step, we'll align our local branch name with the branch on our Github repository so that we push our changes to the correct branch.
 
-`git push --set-upstream origin master`
+`git push --set-upstream origin main`
 
 We only need to do this once (for this branch). For any future commits, we can run simply `git push`.
 
