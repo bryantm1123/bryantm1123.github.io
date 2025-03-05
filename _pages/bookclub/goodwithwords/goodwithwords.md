@@ -2,7 +2,8 @@
 title: Good with Words by Patrick Barry
 permalink: /good-with-words/
 ---
-"Why waste time say lot word when few word do trick?" - Kevin Malone
+"Why waste time say lot word when few word do trick?"   
+                                                                   \- Kevin Malone
 
 ## Overview
 
