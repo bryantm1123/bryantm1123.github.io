@@ -2,7 +2,7 @@
 title: Professional Writing Samples
 permalink: /writing-samples/
 ---
-Much of my prior documentation work is proprietary, and sadly not sharable. However, there are a few highlights that are publicly available.
+This section contains links to samples of my professional writing. Much of my prior documentation work is proprietary, and sadly not sharable. However, there are a few highlights linked below that are publicly available. For more samples of my writing style, see the other sections of this site, my [Github](https://github.com/bryantm1123), and [LinkedIn](https://www.linkedin.com/in/mpbryant) profiles.
 
 ### Mobimeo
 An article which I edited for Mobimeo Technology.
@@ -23,4 +23,4 @@ How-to guides:
 - [Design Booking Website](https://timetap.atlassian.net/wiki/pages/viewpage.action?pageId=491616&pageVersion=32)
 - [Add Custom Booking Fields](https://timetap.atlassian.net/wiki/pages/viewpage.action?pageId=52953143&pageVersion=5)
 
-Note—The links above point to the latest version of the document to which I contributed.
+Note—the links above point to the latest version of the document to which I contributed.
