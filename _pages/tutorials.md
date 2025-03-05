@@ -2,7 +2,7 @@
 title: Tutorials
 permalink: /tutorials/
 ---
-In this section, you'll find a variety of tutorials covering technical topics. Some are meant for complete beginners, and some are geared towards a more technical audience. Each tutorial provides resources for learning more about the topics covered. 
+This section contains a variety of tutorials covering technical topics. Some are meant for complete beginners, and some are geared towards a more technical audience. Each tutorial provides resources for learning more about the topics covered. 
 
 ## Docs as Code
 These tutorials cover topics related to the [Docs-as-Code](https://www.writethedocs.org/guide/docs-as-code/) approach to writing software documentation. They are useful for anyone interested in writing and maintaining documentation for open-source, business, or customer-facing projects who would like to become more familiar with integrating developer tooling into their workflow.

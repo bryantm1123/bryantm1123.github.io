@@ -6,7 +6,7 @@ permalink: /coding-projects/
 This section contains various open-source programming projects on which I've worked.
 
 ## Github Projects
-These are projects that I've created and work on for fun and to gain experience with topics I use professionally.
+These are projects I've created and continue to work on for fun and to gain experience with topics I use professionally.
 
 ### News Reader
 A news reader app that collects news articles from a variety of sources and presents them in a scrolling feed.  
